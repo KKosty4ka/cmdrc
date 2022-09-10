@@ -2,5 +2,5 @@
 cls
 
 echo Installing cmdrc...
-reg import "%localappdata%\cmdrc\register.reg" /f
+reg import "%localappdata%\cmdrc\register.reg"
 echo Done!
