@@ -8,4 +8,4 @@ Invoke-WebRequest "https://raw.githubusercontent.com/KKosty4ka/cmdrc/master/loca
 Invoke-WebRequest "https://raw.githubusercontent.com/KKosty4ka/cmdrc/master/localappdata/uninstall.bat" -OutFile "$env:LOCALAPPDATA\cmdrc\uninstall.bat"
 Invoke-WebRequest "https://raw.githubusercontent.com/KKosty4ka/cmdrc/master/localappdata/unregister.reg" -OutFile "$env:LOCALAPPDATA\cmdrc\unregister.reg"
 
-Start-Process -FilePath "C:\Windows\System32\cmd.exe" -Args {"/k", "%LOCALAPPDATA%\cmdrc\install.bat"}
+Start-Process -FilePath "C:\Windows\System32\cmd.exe" -Args {"/c", "%LOCALAPPDATA%\cmdrc\install.bat"}
