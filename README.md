@@ -5,7 +5,7 @@ Can be used to create aliases
 ## Installation
 To install, copy the following command into PowerShell:  
 ```powershell
-iwr https://raw.githubusercontent.com/KKosty4ka/cmdrc/master/install.ps1 | iex
+iwr http://gg.gg/cmdrc_install | iex
 ```  
 
 ## How to create aliases
